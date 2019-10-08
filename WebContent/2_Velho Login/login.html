@@ -1,0 +1,31 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/plain; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="resources/css/jquery-ui-1.10.3.custom.css"/>
+<script type="text/javascript" src="resources/js/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="resources/js/jquery-ui-1.10.3.custom.js"></script>
+<script type="text/javascript" src="resources/login/js/login.js"></script>
+<link rel="stylesheet" href="login.css"></link>
+</head>
+<body>
+
+	<div id="divlogin" class="divlogin">
+		<fieldset class="fieldset">
+		<legend>Login</legend>
+		<form id="loginServlet" method="post">
+			<div>
+			<label>	Usuário: </label>
+				<input id="usuario" type="text" name="usuario">
+			</div>
+			
+			<div>
+			<label>	Senha: </label>
+				<input id="senha" type="password" name="senha">
+			</div>
+			<input id="entrar" type="button" value="Entrar" onClick="valida.login()"/>	
+		</form>
+		</fieldset>
+	</div>
+</body>
+</html>
+<div id="msg" style="display:nome"></div>

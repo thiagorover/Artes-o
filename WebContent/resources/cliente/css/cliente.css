@@ -1,0 +1,52 @@
+@CHARSET "ISO-8859-1";
+
+.divResultado {
+	margin-top: 30px;
+}
+
+.link {
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+/*FORMULÁRIO*/
+fieldset{
+	border-color: #000099;
+	width: 500px;
+	text-align: center;
+	margin: auto;
+	padding: 10px;	
+}
+
+.div-form {
+	margin-button: 5px;
+	width: 85%;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.div-form-button{
+	margin-left: -100px;
+	margin-top: 10px;
+}
+
+
+.div-form input {
+	margin-left: 110px;
+}
+
+
+.div-form label {
+	position: absolute;
+	margin-top: 4px;
+	margin-left: -30px;
+}
+
+.principalLogin {
+	margin: 15px;
+}
+
+#editarContato{
+	margin-rigth: -190px;
+}

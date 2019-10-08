@@ -1,0 +1,34 @@
+<meta http-equiv="Content-Type" content="text/plain; charset=UTF-8">
+<link rel="stylesheet" href="resources/cliente/css/cliente.css"></link>
+<fieldset class="conteudo-fieldset fieldsetCadastro fieldset" id="fieldsetCadastro">
+	<legend>Cadastro de Cliente</legend>
+		<form class="cadastrarCliente" class="form">
+			<div class="div-form">
+				<label>Nome: </label>
+				<input id="nome" name="txtnome" type="text"></input>
+			</div>
+			
+			<div class="div-form">
+				<label>Endereço: </label>
+				<input id="endereco" name="txtendereco" type="text"></input>
+			</div>
+			
+			<div class="div-form">
+				<label>Telefone: </label>
+				<input id="telefone" name="txttelefone" type="text"></input>
+			</div>
+			
+			<div class="div-form">
+				<label>Sexo: </label>
+			    <input id="sexo" name="txtsexo" type="radio" value="M">Male<br>
+ 				<input id="sexo" name="txtsexo" type="radio" value="F">Female<br>
+			</div>
+
+			<div class="div-form-button">
+				<input type="button" value="Enviar" onclick="SENAI.cliente.cadastrar()"/>
+				<input id="limpar-form" type="reset" value="limpar"/>
+		   </div>
+		   
+		</form>
+</fieldset>
+<div id="msg" style="display:none"></div>

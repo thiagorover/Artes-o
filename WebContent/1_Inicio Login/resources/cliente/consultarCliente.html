@@ -1,0 +1,29 @@
+<script type="text/javascript" src="resources/cliente/js/cliente.js"></script>
+<meta charset="UTF-8">
+<fieldset class="conteudo-fieldset" id="fieldset-conteudo">
+	<legend>Consulta Cliente</legend>
+	<div>
+		Digite o Nome do cliente:
+		<input id="consultarCliente" type="text"></input>
+		<input id="consultarCliente" type="button" value="Buscar" onClick="SENAI.cliente.buscar()"/>
+	</div>
+	
+	<div id="resultadoCliente" class="divResultado"></div>
+</fieldset>
+<div id="editarCliente" style="display:none">
+	<div class="div-form">
+		<label>Nome:</label>
+		<input id="nomeEdit" name="nome" type="text"></input>
+	</div>
+	
+	<div class="div-form">
+		<label>Endereço:</label>	
+		<input id="enderecoEdit" name="endereco" type="text"></input>
+	</div>
+	
+	<div class="div-form">
+		<label>Telefone:</label>
+		<input id="telefoneEdit" name="telefone" type="text"></input>	
+	</div>
+	<input name="idCliente" id="idClienteEdit" type="hidden"/>
+</div>

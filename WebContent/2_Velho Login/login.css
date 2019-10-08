@@ -1,0 +1,30 @@
+@CHARSET "ISO-8859-1";
+
+fieldset{
+	border-color: #000099;
+	margin-top: 50px;
+	width: 500px;
+	text-align: center;
+	margin: auto;
+	padding: 10px;	
+}
+
+input {
+	margin-left: 110px;
+} 
+
+label {
+	position: absolute;
+	margin-top: 4px;
+	margin-left: 40px;
+}
+
+#entrar{
+	margin-top: 10px;
+	margin-left: 230px;
+}
+
+#divlogin{
+	margin-top: 200px;
+	margin-left: auto;
+} 

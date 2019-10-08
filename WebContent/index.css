@@ -1,0 +1,20 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	margin: opx;
+	font-family: 'Helvetica Neue', Helvetica, Ariel, 'LUcida grande', tahoma, verdana, arial, sans-serif;
+	font-size: 14px;
+	background: #e6e6ff;
+}
+
+.div{
+	margin: 30px;
+}
+
+.fieldsetCadastro{
+	width: 500px;
+}
+
+#limpa-form{
+	margin-left: -1px;
+}
